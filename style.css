@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #87cefa;
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url('mountains.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #87cefa;
+    border: #87cefa 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {
+    background: #87cefa;
+    color: #eee;
+}
+
+#section-a {
+    background: #eee;
+    color: #eee;
+    text-align: center;
+}
+
+#section-a .box-a {
+    padding: 20px;
+    border-radius: 10px;
+    background: #87cefa;
+}
+
+#section-b {
+    padding: 20px;
+    background: #eee;
+    text-align: center;
+}
+
+#section-c {
+    display:flex;
+    text-align: center;
+    background: #eee;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1, .box-3 {
+    background:#87cefa;
+    color: #eee;
+    border-radius: 10px;
+}
+
+#section-c .box-2 {
+    background: #eee;
+}
+
+#footer {
+    text-align: center;
+    background: #eee;
+    color: #778899;
+    padding: 20px;
+    
+}
